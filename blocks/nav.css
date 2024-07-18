@@ -1,0 +1,23 @@
+.nav {
+  grid-area: nav;
+  border-right: solid 3px #3a3a3a;
+  display: flex;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  padding: 57px 29px 0px 22px;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #3a3a3a;
+}
+
+.nav__links {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  list-style: none;
+}
