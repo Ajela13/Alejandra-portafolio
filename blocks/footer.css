@@ -1,4 +1,6 @@
 .footer {
+  max-width: 21px;
+  padding: 0px 58px 56px;
   grid-area: footer;
   border-right: solid 3px #3a3a3a;
 }
