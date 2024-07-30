@@ -1,3 +1,10 @@
 .resume {
+  color: #fefbf6;
   background-color: #ba8e69;
+  padding: 63px 225px 0px;
+}
+
+.resume__content {
+  border-left: solid 2px #fefbf6;
+  padding: 0px 61px 205px;
 }
