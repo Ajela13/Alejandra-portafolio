@@ -1,4 +1,15 @@
 .header {
+  padding: 195px 0px 110px;
   grid-area: header;
   margin: auto;
+}
+
+.header__image {
+  border-radius: 250px;
+  position: absolute;
+  width: 208px;
+  height: 331px;
+  right: 63px;
+  top: 715px;
+  z-index: 1;
 }
