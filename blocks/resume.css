@@ -4,7 +4,76 @@
   padding: 63px 225px 0px;
 }
 
+.resume__title {
+  font-weight: 700;
+  font-size: 95px;
+  line-height: 200px;
+}
+
 .resume__content {
   border-left: solid 2px #fefbf6;
   padding: 0px 61px 205px;
+}
+
+.resume__education {
+  max-width: 593px;
+  padding-bottom: 94px;
+}
+
+.resume__education-title {
+  font-size: 64px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.resume__education-description {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.resume__experience {
+  max-width: 586px;
+  padding-bottom: 103px;
+}
+
+.resume__experience-title {
+  font-size: 64px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.resume__experience-description {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.resume__skills {
+  max-width: 797px;
+}
+
+.resume__skills-title {
+  font-size: 64px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.resume__skills-list {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 37px;
+  text-align: left;
+}
+
+.resume__skills-item {
+  list-style: none;
 }
