@@ -1,4 +1,8 @@
 .footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 24px;
   max-width: 21px;
   padding: 0px 58px 56px;
   grid-area: footer;
