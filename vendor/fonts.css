@@ -1,0 +1,15 @@
+@font-face {
+  src: url("../vendor/fonts/Trispace-Regular.ttf") format("truetype");
+  font-family: "Trispace";
+}
+
+@font-face {
+  src: url("../vendor/fonts/BellotaText-Regular.ttf") format("truetype");
+  font-family: "Bellota";
+}
+
+@font-face {
+  src: url("../vendor/fonts/PlayfairDisplay-VariableFont_wght.ttf")
+    format("truetype");
+  font-family: "Playfair";
+}
