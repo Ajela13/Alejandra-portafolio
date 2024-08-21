@@ -1,4 +1,6 @@
 .about {
+  font-family: Trispace;
+  font-weight: 400;
   background-color: #493a33;
   color: #fefbf6;
 }
@@ -29,16 +31,18 @@
 }
 
 .about__title {
+  font-family: Playfair;
+  font-style: italic;
   font-weight: 400;
   font-size: 95px;
   line-height: 129.2px;
-  margin: 0px 0px 26px 161px;
+  margin: 0px 0px 26px 150px;
 }
 .about__description {
   font-weight: 400;
   font-size: 24px;
   line-height: 1.2;
-  padding: 0px 60px;
+  padding: 0px 200px;
   text-align: center;
   margin: auto;
   padding-bottom: 153px;
