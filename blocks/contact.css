@@ -1,3 +1,32 @@
 .contact {
   background-color: #d3cfc4;
+  padding: 63px 225px 0px;
+}
+
+.contact__title {
+  color: #3a3a3a;
+  margin: 0;
+  font-family: Bellota Text;
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 200px;
+  text-align: left;
+}
+
+.contact__content {
+  border-left: solid 2px #928b7b;
+  padding: 0 0 0 64px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__content-title {
+  align-self: center;
+  margin: 0 0 38px;
+  font-family: Zodiak Variable;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: left;
 }
