@@ -1,6 +1,7 @@
 .header {
   grid-area: header;
-  margin: auto;
+  margin: 195px auto 0;
+  height: 520px;
 }
 
 .header__container {
