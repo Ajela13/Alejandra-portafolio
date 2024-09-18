@@ -5,7 +5,7 @@
   border-right: solid 3px #3a3a3a;
   display: flex;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 18.08px;
   padding: 57px 29px 0px 22px;
   justify-content: center;
@@ -22,7 +22,7 @@
   padding: 0;
   display: flex;
   flex-direction: column;
-  gap: 23px;
+  gap: 40px;
   list-style: none;
   align-items: center;
 }
