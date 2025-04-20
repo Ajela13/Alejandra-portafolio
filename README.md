@@ -1,8 +1,33 @@
-# React + Vite
+# 💼 Alejandra Mariño Parra — Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website! This project showcases my journey as a software engineer, highlighting the projects I’ve built, the technologies I use, and a bit about who I am.
 
-Currently, two official plugins are available:
+## 🌐 Live Site
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 [Visit my portfolio]()
+
+## 🛠️ Built With
+
+- HTML5 & CSS3
+- JavaScript (ES6+)
+- React
+- Vite
+- Git & GitHub
+
+## 📁 Features
+
+- 🧑‍💻 **About Me** section with a quick intro and tech stack
+- 📸 **Projects Showcase** — real-world apps I've built
+- 📝 **Contact Form** to get in touch
+- 📱 Responsive design — looks great on all screen sizes
+
+## 🚀 Getting Started
+
+To run the project locally:
+
+```bash
+git clone https://github.com/Ajela13/Alejandra-portafolio.git
+cd Alejandra-portafolio
+npm install
+npm run dev
+```
