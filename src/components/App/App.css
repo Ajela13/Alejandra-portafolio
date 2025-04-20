@@ -1,0 +1,9 @@
+.page {
+  display: flex;
+}
+.page__content {
+  position: relative;
+  margin: 0;
+  background-color: #d3cfc4;
+  color: #3a3a3a;
+}

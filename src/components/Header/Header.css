@@ -1,6 +1,6 @@
 .header {
   grid-area: header;
-  margin: 195px auto 0;
+  margin: 100px auto 100px;
   height: 520px;
 }
 
