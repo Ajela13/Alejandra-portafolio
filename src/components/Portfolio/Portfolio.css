@@ -1,3 +1,13 @@
 .portfolio {
   background-color: #493a33;
+  padding: 63px 225px 0px;
+  color: #ffffff;
+}
+
+.portfolio__title {
+  font-family: Bellota;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 200px;
 }
