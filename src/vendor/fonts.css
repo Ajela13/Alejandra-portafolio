@@ -2,3 +2,15 @@
   src: url("../vendor/fonts/CabinetGrotesk-Regular.woff2") format("woff2");
   font-family: "Cabinet";
 }
+@font-face {
+  src: url("../vendor/fonts/BellotaText-Regular.ttf") format("truetype");
+  font-family: "Bellota";
+}
+@font-face {
+  src: url("../vendor/fonts/Zodiak-Variable.ttf") format("truetype");
+  font-family: "Zodiak Variable";
+}
+@font-face {
+  src: url("../vendor/fonts/Trispace-Regular.ttf") format("truetype");
+  font-family: "Trispace";
+}
