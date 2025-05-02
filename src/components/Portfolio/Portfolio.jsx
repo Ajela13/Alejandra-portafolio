@@ -1,5 +1,5 @@
 import "./Portfolio.css";
-import ProjectList from "../ProjectList/ProjectList";
+import Project from "../Project/Project";
 import { projects } from "../../data/projects";
 
 function Portfolio() {
@@ -9,7 +9,7 @@ function Portfolio() {
       <div className="portfolio__content">
         <ul className="portfolio__list">
           {projects.map((item) => {
-            return <ProjectList key={item.id} item={item} />;
+            return <Project key={item.id} item={item} />;
           })}
         </ul>
       </div>
