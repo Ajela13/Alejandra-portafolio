@@ -8,7 +8,7 @@ function Main() {
     <main className="content">
       <About/>
       <Resume/>
-<Portfolio/>
+      <Portfolio/>
       <Contact/>
     </main>
   );
