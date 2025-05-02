@@ -21,7 +21,7 @@ function Navbar() {
           </a>
         </li>
         <li>
-          <a href="#portafolio" className="nav__link">
+          <a href="#portfolio" className="nav__link">
             Portafolio
           </a>
         </li>
