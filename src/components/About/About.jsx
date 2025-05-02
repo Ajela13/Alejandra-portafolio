@@ -6,7 +6,7 @@ function About() {
     <section className="about" id="about">
       <div className="about__header">
         <p className="about__header-title">
-          Mathematics - Software Engineer - Data scientist - Data analyst
+          Mathematician - Software Engineer - Data scientist - Data analyst
         </p>
         <img
           src={profilePicture}
