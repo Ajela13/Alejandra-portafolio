@@ -2,6 +2,7 @@
 import wtwr from "../assets/wtwr.png";
 import mlearn from "../assets/mlearnp.png";
 import contactCenter from "../assets/contactCenter.png";
+import aroundTheUS from "../assets/aroundTheUS.png";
 
 export const projects = [
   {
@@ -31,6 +32,14 @@ export const projects = [
       "A dashboard to monitor contact center agents and customers in real time using WebSockets. Provides periodic data updates and displays agent status and customer queues.",
     technologies: ["JavaScript|Node.js|WebSockets|CSS|HTML"],
     image: contactCenter,
+  },
+  {
+    id: 4,
+    name: "Around the US",
+    description:
+      "Around The U.S. is a responsive web app for managing user profiles and interactive image cards, with features like editing, liking, deleting, and real-time updates.",
+    technologies: ["HTML5 | CSS3 | JavaScript (ES6) | Webpack | Babel "],
+    image: aroundTheUS,
   },
   //   {
   //     name: "CRUD App with Ruby on Rails",
