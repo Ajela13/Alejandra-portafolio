@@ -53,6 +53,12 @@ function Resume() {
               user-friendly interfaces, ensuring a seamless user experience.
             </p>
             <p className="resume__experience-description">
+              More recently, I gained hands-on experience with modern front-end
+              frameworks and tools such as React, Next.js, Redux, and HeroUI, 
+              further enhancing my ability to create scalable, interactive, 
+              and visually appealing applications.
+            </p>
+            <p className="resume__experience-description">
               While I've gained valuable experience in these areas, I’m
               currently focused on deepening my expertise in both Artificial
               Intelligence and Software Engineering, aiming to build intelligent
@@ -80,7 +86,13 @@ function Resume() {
             <li className="resume__skills-item">Front-end programming</li>
             <li className="resume__skills-item">HTML</li>
             <li className="resume__skills-item">CSS</li>
+            <li className="resume__skills-item">tailwind</li>
             <li className="resume__skills-item">Javascript</li>
+            <li className="resume__skills-item">Typescript</li>
+            <li className="resume__skills-item">Next.js</li>
+            <li className="resume__skills-item">Redux</li>
+            <li className="resume__skills-item">HeroUI</li>
+            <li className="resume__skills-item">C#</li>
             <li className="resume__skills-item">React</li>
             <li className="resume__skills-item">Back-end Engineering</li>
             <li className="resume__skills-item">Node.js</li>
