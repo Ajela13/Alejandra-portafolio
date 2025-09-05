@@ -1,4 +1,5 @@
 import "./Header.css";
+import resume from "../../assets/resume.pdf"
 
 function Header() {
   return (
@@ -16,7 +17,7 @@ function Header() {
         }}
       >
         <a
-          href="/resume.pdf"
+          href={resume}
           download
           title="Download Resume"
           style={{
