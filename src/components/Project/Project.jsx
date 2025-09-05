@@ -7,7 +7,7 @@ function Project({ item }) {
         <h3 className="project__item-title">{item.name}</h3>
         <p className="project__item-text">{item.description}</p>
         <p className="project__item-tech">{item.technologies}</p>
-        <a href="#" className="project__item-link">
+        <a href={item.link} className="project__item-link">
           <p className="project__item-link-text">Learn more</p>
         </a>
       </div>
