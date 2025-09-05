@@ -3,10 +3,20 @@ import wtwr from "../assets/wtwr.png";
 import mlearn from "../assets/mlearnp.png";
 import contactCenter from "../assets/contactCenter.png";
 import aroundTheUS from "../assets/aroundTheUS.png";
+import auratabogo from "../assets/auratabogo.png";
 
 export const projects = [
   {
     id: 1,
+    name: "Around the US",
+    description:
+      "Around The U.S. is a responsive web app for managing user profiles and interactive image cards, with features like editing, liking, deleting, and real-time updates.",
+    technologies: ["HTML5 | CSS3 | JavaScript (ES6) | Webpack | Babel "],
+    image: aroundTheUS,
+    link: "https://ajela13.github.io/se_project_aroundtheus/index.html",
+  },
+  {
+    id: 2,
     name: "What to Wear",
     description:
       "A weather-based clothing recommendation web app that allows users to add, like, and delete clothing items depending on the weather. It integrates with the OpenWeatherMap API and supports user authentication.",
@@ -14,9 +24,10 @@ export const projects = [
       "React|JavaScript|CSS|HTML|Vite|OpenWeatherMap API|MongoDB|Express.js|Node.js",
     ],
     image: wtwr,
+    link: "https://startling-crepe-a80270.netlify.app/"
   },
   {
-    id: 2,
+    id: 3,
     name: "Educational ML Platform",
     description:
       "A web platform that helps users learn the basics of machine learning through visual examples and theory. It allows dataset downloads from OpenML, supports user authentication, and includes interactive posts.",
@@ -24,23 +35,27 @@ export const projects = [
       "React|JavaScript|Node.js|Express.js|MongoDB|OpenML API|CSS",
     ],
     image: mlearn,
+    link: "https://ajela13.github.io/MLearn/",
   },
   {
-    id: 3,
+    id: 4,
     name: "Contact Center Dashboard",
     description:
       "A dashboard to monitor contact center agents and customers in real time using WebSockets. Provides periodic data updates and displays agent status and customer queues.",
     technologies: ["JavaScript|Node.js|WebSockets|CSS|HTML"],
     image: contactCenter,
+    link: "https://github.com/Ajela13/contact-center",
   },
   {
-    id: 4,
-    name: "Around the US",
+    id: 5,
+    name: "Auratabogo",
     description:
-      "Around The U.S. is a responsive web app for managing user profiles and interactive image cards, with features like editing, liking, deleting, and real-time updates.",
-    technologies: ["HTML5 | CSS3 | JavaScript (ES6) | Webpack | Babel "],
-    image: aroundTheUS,
-  },
+      "Auratabogo is a comprehensive e-commerce platform designed to facilitate seamless online shopping experiences. It features user authentication, product browsing, shopping cart functionality, and secure checkout processes.",
+    technologies: ["React|TypeScript"],
+    image: auratabogo,
+    link: "auratabogo.com",
+  }
+  
   //   {
   //     name: "CRUD App with Ruby on Rails",
   //     description:
