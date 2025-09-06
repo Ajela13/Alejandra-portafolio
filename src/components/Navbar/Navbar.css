@@ -73,7 +73,7 @@
 
 @media (max-width: 768px) {
   .nav {
-    font-size: small;
+    font-size: medium;
     flex-direction: row;
     padding: 10px;
     min-width: unset;

@@ -65,31 +65,31 @@
 
 @media (max-width: 900px) {
   .resume__title {
-    font-size: 38px;
+    font-size: 40px;
     line-height: 90px;
   }
   .resume__subtitle {
     font-size: 28px;
   }
   .resume__description {
-    font-size: 16px;
+    font-size: 18px;
   }
   .resume__skills-list {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 28px;
   }
 }
 
 @media (max-width: 600px) {
   .resume__title {
-    font-size: 24px;
+    font-size: 40px;
     line-height: 50px;
   }
   .resume__subtitle {
-    font-size: 18px;
+    font-size: 20px;
   }
   .resume__description {
-    font-size: 14px;
+    font-size: 18px;
   }
   .resume__skills-list {
     font-size: 13px;
@@ -97,15 +97,3 @@
   }
 }
 
-@media (max-width: 400px) {
-  .resume__title {
-    font-size: 16px;
-    line-height: 30px;
-  }
-  .resume__subtitle {
-    font-size: 13px;
-  }
-  .resume__description {
-    font-size: 12px;
-  }
-}

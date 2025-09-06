@@ -96,17 +96,17 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .project__item-title {
-    font-size: 28px;
+    font-size: 40px;
   }
   .project__item-text,
   .project__item-link-text {
-    font-size: 16px;
+    font-size: 18px;
   }
   .project__item-image {
-    max-width: 50vw;
-    max-height: 60vh;
+    max-width: 60vw;
+    max-height: 70vh;
     border-radius: 30px;
   }
 }
