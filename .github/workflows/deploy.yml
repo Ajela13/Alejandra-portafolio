@@ -31,3 +31,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+          publish_branch: gh-pages   # 👈 Force deploy to gh-pages branch
+
+      - name: Show deployment URL
+        run: echo "Deployed to 👉 https://ajela13.github.io/Alejandra-portafolio/" >> $GITHUB_STEP_SUMMARY
