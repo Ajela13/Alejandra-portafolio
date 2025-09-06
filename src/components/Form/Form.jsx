@@ -1,7 +1,6 @@
 import "./Form.css";
 import emailjs from "emailjs-com";
 import { useFormStore } from "../../store/formStore";
-import { VITE_EMAILJS_SERVICE_ID, VITE_EMAILJS_TEMPLATE_ID, VITE_EMAILJS_PUBLIC_KEY } from '@env';
 
 function Form() {
   const { form, status, setForm, setStatus } = useFormStore();
@@ -14,8 +13,8 @@ function Form() {
     e.preventDefault();
     emailjs
       .send(
-        VITE_EMAILJS_SERVICE_ID,
-        VITE_EMAILJS_TEMPLATE_ID,
+          import.meta.env.VITE_EMAILJS_SERVICE_ID,
+          import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         {
           first_name: form.firstName,
           last_name: form.lastName,
@@ -23,7 +22,7 @@ function Form() {
           phone: form.phone,
           message: form.message,
         },
-        VITE_EMAILJS_PUBLIC_KEY
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       )
       .then(
         () => setStatus("Message sent!"),
