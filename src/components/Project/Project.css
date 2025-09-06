@@ -42,6 +42,7 @@
 .project__item-link {
   display: flex;
   justify-content: flex-end;
+  text-decoration: none;
 }
 .project__item-link-text {
   font-weight: 400;
@@ -62,4 +63,50 @@
   max-width: 215px;
   max-height: 257px;
   border-radius: 60px;
+}
+
+@media (max-width: 800px) {
+  .project {
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    text-align: start;
+  }
+  .project__item-description {
+    max-width: 100%;
+    margin: 0 0 20px 0;
+    text-align: start;
+  }
+  .project__item-title,
+  .project__item-text,
+  .project__item-tech {
+    text-align: center;
+  }
+  .project__item-link {
+    justify-content: center;
+  }
+  .project__item-link-text {
+    text-align: start;
+  }
+  .project__item-image {
+    margin: 0 auto;
+    max-width: 50vw;
+    max-height: 60vh;
+    border-radius: 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  .project__item-title {
+    font-size: 28px;
+  }
+  .project__item-text,
+  .project__item-link-text {
+    font-size: 16px;
+  }
+  .project__item-image {
+    max-width: 50vw;
+    max-height: 60vh;
+    border-radius: 30px;
+  }
 }

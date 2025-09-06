@@ -48,3 +48,28 @@
   padding-bottom: 153px;
   text-align: justify;
 }
+
+@media screen and (max-width: 768px) {
+
+
+.about__header-image {
+  width: 170px;
+  height: 230px;
+}
+
+  .about__title {
+    font-size: 40px;
+    margin: 0px 20px 20px 20px;
+    text-align: center;
+    line-height: 1.2;
+  }
+
+  .about__description {
+    font-size: 14px;
+    padding: 0px 20px;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 80px;
+    text-align: justify;
+  }
+}

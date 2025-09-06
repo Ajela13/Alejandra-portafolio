@@ -77,7 +77,7 @@
     flex-direction: row;
     padding: 10px;
     min-width: unset;
-    max-width: unset;
+    max-width: 40px;
     border-right: none;
     border-bottom: solid 3px #3a3a3a;
     justify-content: flex-start;
