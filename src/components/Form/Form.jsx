@@ -5,16 +5,25 @@ import { useFormStore } from "../../store/formStore";
 function Form() {
   const { form, status, setForm, setStatus } = useFormStore();
 
+  // Define initial form values for reset
+  const initialForm = {
+    firstName: "",
+    lastName: "",
+    email: "",
+    phone: "",
+    message: "",
+  };
+
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    emailjs
-      .send(
-          import.meta.env.VITE_EMAILJS_SERVICE_ID,
-          import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+    try {
+      await emailjs.send(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         {
           first_name: form.firstName,
           last_name: form.lastName,
@@ -23,11 +32,12 @@ function Form() {
           message: form.message,
         },
         import.meta.env.VITE_EMAILJS_PUBLIC_KEY
-      )
-      .then(
-        () => setStatus("Message sent!"),
-        () => setStatus("Failed to send. Please try again.")
       );
+      setStatus("Message sent!");
+      setForm(initialForm); // Reset form fields
+    } catch (error) {
+      setStatus("Failed to send. Please try again.");
+    }
   };
 
   return (
@@ -108,6 +118,5 @@ function Form() {
     </form>
   );
 }
-
 
 export default Form;
