@@ -32,7 +32,7 @@ export const projects = [
     description:
       "A web platform that helps users learn the basics of machine learning through visual examples and theory. It allows dataset downloads from OpenML, supports user authentication, and includes interactive posts.",
     technologies: [
-      "React|JavaScript|Node.js|Express.js|MongoDB|OpenML API|CSS",
+      "React|JavaScript|Node.js|Express.js|MongoDB|OpenML API|CSS|Tiptap|Vite",
     ],
     image: mlearn,
     link: "https://ajela13.github.io/MLearn/",
