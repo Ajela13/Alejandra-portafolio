@@ -32,7 +32,7 @@ export const projects = [
     description:
       "A web platform that helps users learn the basics of machine learning through visual examples and theory. It allows dataset downloads from OpenML, supports user authentication, and includes interactive posts.",
     technologies: [
-      "React|JavaScript|Node.js|Express.js|MongoDB|OpenML API|CSS",
+      "React|JavaScript|Node.js|Express.js|MongoDB|OpenML API|CSS|Tiptap|Vite",
     ],
     image: mlearn,
     link: "https://ajela13.github.io/MLearn/",
@@ -50,7 +50,7 @@ export const projects = [
     id: 5,
     name: "Auratabogo",
     description:
-      "Auratabogo is a comprehensive e-commerce platform designed to facilitate seamless online shopping experiences. It features user authentication, product browsing, shopping cart functionality, and secure checkout processes.",
+      "Auratabogo is a landing page for an artist's portfolio, showcasing their work and providing contact information. Built with React and TypeScript for a modern, responsive design.",
     technologies: ["React|TypeScript"],
     image: auratabogo,
     link: "https://auratabogo.com",
