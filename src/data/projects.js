@@ -53,7 +53,7 @@ export const projects = [
       "Auratabogo is a comprehensive e-commerce platform designed to facilitate seamless online shopping experiences. It features user authentication, product browsing, shopping cart functionality, and secure checkout processes.",
     technologies: ["React|TypeScript"],
     image: auratabogo,
-    link: "auratabogo.com",
+    link: "https://auratabogo.com",
   }
   
   //   {
